@@ -32,8 +32,8 @@
 		    url: "uploadFile",
 		    type: "POST",
 		    data: formdata,
-		    processData: false,
-		    contentType: false,
+		    processData: false, // 不处理数据
+		    contentType: false, // 不设置内容类型
 		    success: function (result) {
 		         // if all is well
 		         // play the audio file
