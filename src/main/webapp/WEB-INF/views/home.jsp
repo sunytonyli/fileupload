@@ -10,6 +10,7 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+<p>	 filePath is ${filePath}	</p>
 <form action="">
 
 	<input id="default_file" type="file" name="fileName"/>
